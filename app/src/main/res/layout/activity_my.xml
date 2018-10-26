@@ -6,19 +6,8 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/text1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="IP:      "
-        android:textColor="@color/colorAccent"
-        android:textSize="20dp"/>
-
-    <TextView android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/text2"
-        android:text="IP:      "
-        android:textSize="20dp"
-        android:textColor="@color/colorAccent"/>
+    <SurfaceView android:id="@+id/surface_video"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"/>
 
 </LinearLayout>
